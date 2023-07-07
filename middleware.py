@@ -329,8 +329,7 @@ def get_data(uuid) -> User:
             "Awards",
             awardsSVG,
             [
-                get_award_date(award),
-                "Congratulations!"
+                get_award_date(award)
             ]
         )
 
